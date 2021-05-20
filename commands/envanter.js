@@ -13,14 +13,14 @@ module.exports = {
       const etiket = message.mentions.users.first()
 const envanter = db.fetch(`envanter_${message.author.id}`)
 
-function removeDuplicates(data) {
+function remdupli(data) {
   return[...new Set(data)]
 }
 
-var sonuc = removeDuplicates(envanter)
+var sonuc = remdupli(envanter)
 
 
-function findOdd(para) {
+function farkbul(para) {
   var count = {};
   para.forEach(function(para) {
   count[para] = (count[para] || 0) + 1;
@@ -30,7 +30,7 @@ function findOdd(para) {
 
 //console.log(findOdd(envanter));
 
-var fayntot = findOdd(envanter)
+var fayntot = farkbul(envanter)
 var fayntot2 = JSON.stringify(fayntot);
 
 var arraybruh = []
