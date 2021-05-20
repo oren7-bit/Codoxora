@@ -1,0 +1,23 @@
+{
+  "name": "Codoxora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "human-number": "^1.0.6",
+    "node-fetch": "^2.6.1",
+    "node-kitsu": "^1.1.1",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.3",
+    "simple-youtube-api": "^5.2.1",
+    "twitch-api-v5": "^2.0.4"
+  }
+}
